@@ -30,7 +30,7 @@ There are two classes which contain logic and algorithms.
 
 *) Tests cover all expression cases.
 
-*) Input performs with Spring Shell command "eval".
+*) Input performs by Spring Shell with command "eval".
 
 
 
