@@ -19,7 +19,7 @@ There are two classes which contain logic and algorithms.
 
 1) Class "Expander" is responsible for expanding correctly recorded bracket expressions
    according to the task. All multipliers should be recorded only with square brackets.
-   All square brackets have multipliers before them. Only Latin Letters are allowed. Zero can also be a multiplier.
+   All square brackets should have multipliers before them. Only Latin Letters are allowed. Zero can also be a multiplier.
 
 2) Class "Validator" processes expression and gives a response about compliance with the task conditions.
    This class also displaces a Lombock log about type and place of mistake in bracket expression.
