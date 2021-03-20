@@ -51,8 +51,8 @@ public class ValidatorTests {
         assertEquals(true, validator.validateAreSymbolsInRightOrder("x"));
         assertEquals(true, validator.validateAreSymbolsInRightOrder("4[x]"));
         assertEquals(true, validator.validateAreSymbolsInRightOrder("4[1[]"));
-        assertEquals(true, validator.validateAreSymbolsInRightOrder("as[df34[]"));
-        assertEquals(true, validator.validateAreSymbolsInRightOrder("a3sd[]f34[]"));
+        assertEquals(true, validator.validateAreSymbolsInRightOrder("as2[df34[]"));
+        assertEquals(true, validator.validateAreSymbolsInRightOrder("asd4[]f34[]"));
 
         assertEquals(false, validator.validateAreSymbolsInRightOrder("3"));
         assertEquals(false, validator.validateAreSymbolsInRightOrder("12d"));
@@ -65,7 +65,7 @@ public class ValidatorTests {
     @Test
     public void testAllLeftBracketsArePrecededByNumbers() {
         assertEquals(true, validator.validateAreSymbolsInRightOrder("a"));
-        assertEquals(true, validator.validateAreSymbolsInRightOrder("10"));
+        assertEquals(true, validator.validateAreSymbolsInRightOrder("10[m"));
         assertEquals(true, validator.validateAreSymbolsInRightOrder("1[f]"));
         assertEquals(true, validator.validateAreSymbolsInRightOrder("4[1[]"));
         assertEquals(true, validator.validateAreSymbolsInRightOrder("as3[df34[]"));
