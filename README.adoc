@@ -28,9 +28,9 @@ There are two classes which contain logic and algorithms.
 2) Class "Validator" processes expression and gives a response about compliance with the task conditions.
    This class also displaces a Lombock log about type and place of mistake in bracket expression.
 
-3) Tests cover all expression cases.
+*) Tests cover all expression cases.
 
-4) Input performs with Spring Shell command "eval".
+*) Input performs with Spring Shell command "eval".
 
 
 
