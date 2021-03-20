@@ -4,11 +4,15 @@ The application is started using maven wrapper.
 To run the application ...
 
 1) Start it up
+
 On Windows: ./mvnw.cmd spring-boot:run
+
 On Linux or MacOs ./mvnw spring-boot:run
 
 2) Run the eval <bracket expression command> i.e. "eval y2[x]"
+
 3) The output will be printed to the console i.e "yxx"
+
 4) The log will indicate concrete error in case of incorrect input.
 
 == How the application works ==
